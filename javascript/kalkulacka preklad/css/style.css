@@ -1,0 +1,54 @@
+body {
+	margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+	background: linear-gradient(to bottom, #5D13F9 75%, white 25%);
+	background-repeat: no-repeat;
+}
+ 
+.topnav {
+	background-color: #5D13F9;	
+	overflow: auto;
+}
+
+.topnav a {
+	color: white;
+	text-decoration: none;
+    padding: 11px 15px;
+    display: block;
+    float: right;
+}
+
+.topnav a.active,
+.topnav a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	float: left;
+}
+
+.obrazok {
+	padding: 50px 0px;
+}
+
+.button {
+	text-align: right;
+	color: white;
+	float: right; 
+	padding: 50px 0px;   
+}
+
+.odkaz {
+	margin-left: auto;
+    margin-right: auto;
+    width: 58em;
+}
+
+img.aa {
+  border-radius: 3%;
+}
+
+#resultArea,#resultPerimeter,#number{
+	display: inline;
+}

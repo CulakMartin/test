@@ -1,0 +1,43 @@
+data = [{"resultArea":"Obsah je: ","resultPerimeter":"Obvod je: ","contact":"Kontakt","blog":"Blog","download":"Stiahnutie","team":"Tím","pricing":"Ceny","screenshot":"Screenshot","features":"Funkcie","home":"Domov","chooseShape":"Vyber tvar","triangle":"Trojuholník","rectangle":"Obdĺžnik","square":"Štvorec","chooseCalculation":"Vyber čo chceš počítať","area":"Obsah","perimeter":"Obvod","button1":"Pridať rozmery","calculate":"Vypočítaj","result":"Výsledok je: "},{"resultArea":"Area is: ","resultPerimeter":"Perimeter is: ","contact":"Contact","blog":"Blog","download":"Download","team":"Team","pricing":"Pricing","screenshot":"Screenshot","features":"Features","home":"Home","chooseShape":"Choose the shape","triangle":"Triangle","rectangle":"Rectangle","square":"Square","chooseCalculation":"Choose calculation","area":"Area","perimeter":"Perimeter","button1":"Add dimensions","calculate":"Calculate","result":"Result is: "}]
+
+
+//  data = '[
+//  	{
+// 		"contact":"Kontakt", 
+// 		"blog":"Blog", 
+// 		"download":"Stiahnutie", 
+// 		"team":"Tím", 
+// 		"pricing":"Ceny",
+// 		"screenshot":"Screenshot",
+// 		"features":"Funkcie",
+// 		"home":"Domov",
+// 		"chooseShape":"Vyber tvar",
+// 		"triangle":"Trojuholník",
+// 		"rectangle":"Obdĺžnik",
+// 		"square":"Štvorec",
+// 		"chooseCalculation":"Vyber čo chceš počítať",
+// 		"area":"Obsah",
+// 		"perimeter":"Obvod",
+// 		"button1":"Pridať rozmery",
+// 		"calculate":"Vypočítaj",
+// 		"result":"Výsledok je: ",
+// 	},{
+// 		"contact":"Contact", 
+// 		"blog":"Blog", 
+// 		"download":"Download", 
+// 		"team":"Team", 
+// 		"pricing":"Pricing",
+// 		"screenshot":"Screenshot",
+// 		"features":"Features",
+// 		"home":"Home",
+// 		"chooseShape":"Choose the shape",
+// 		"triangle":"Triangle",
+// 		"rectangle":"Rectangle",
+// 		"square":"Square",
+// 		"chooseCalculation":"Choose calculation",
+// 		"area":"Area",
+// 		"perimeter":"Perimeter",
+// 		"button1":"Add dimensions",
+// 		"calculate":"Calculate",
+// 		"result":"Result is: ",
+// }]';

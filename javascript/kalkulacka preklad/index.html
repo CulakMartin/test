@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZeedAppKal</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="sources/data.json"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<script src="js/kalkulacka.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="load()">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<button id="0" class="translate">Slovensky</button>
+	<button id="1" class="translate">English</button>
+
+	<img class="logo" src="../1. obrazok/img/logo.png">
+
+	<div class="topnav">
+		<a href="#contact" class="lang" id="bimbam" key="contact">Kontakt</a>
+		<a href="#blog" class="lang" key="blog">Blog</a>
+		<a href="#download" class="lang" key="download">Stiahnutie</a>
+		<a href="#team" class="lang" key="team">Tím</a>
+		<a href="#pricing" class="lang" key="pricing">Ceny</a>
+		<a href="#screenshot" class="lang" key="screenshot">Screenshot</a>
+		<a href="#features" class="lang" key="features">Funkcie</a>
+		<a href="../1. obrazok/index.html" class="lang" key="home">Domov</a>
+	</div>
+
+	<p class="lang" key="chooseShape">Vyber tvar</p>
+	<select id="tvar" >
+		<option value="3" class="lang" key="triangle">Trojuholník</option>
+		<option value="2" class="lang" key="rectangle">Obdĺžnik</option>
+		<option value="1" class="lang" key="square">Štvorec</option>
+	</select>
+
+	<p class="lang" key="chooseCalculation">Vyber čo chceš počítať</p>
+	<select id="prikaz">
+		<option value="1" class="lang" key="area">Obsah</option>
+		<option value="2" class="lang" key="perimeter">Obvod</option>
+	</select>
+
+	<br><br>
+	<button type="button" class="lang" key="button1" onclick="vypytajRozmery()">Pridať rozmery</button>
+	<br><br>
+
+	<div id="rozmery"></div>
+	<br><br>
+	<div id="koniec"></div>
+</body>
+</html>
